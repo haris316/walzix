@@ -93,7 +93,30 @@ body {
   min-height: 80vh;
   max-height: 80vh;
   width: 100%;
-  padding: 10px 0 ;
   background-image: url("./assets/journey.png");
   background-size: cover;
+  color: white;
+}
+.third_section_head{
+  padding: 100px 0 0 60px ;
+  font-size: 60px;
+  font-weight: 800;
+}
+.third_section_text{
+  padding: 0 60px;
+  min-width: 40%;
+  max-width: 40%;
+}
+.third_section_button{
+  margin: 20px 60px;
+  max-width: 12%;
+  min-width: 12%;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  color: #324a5a
 }
