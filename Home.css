@@ -34,26 +34,66 @@ body {
   color: white;
 }
 .second_section {
-  min-height: 90vh;
-  max-height: 90vh;
+  min-height: 85vh;
+  max-height: 85vh;
   width: 100%;
+  padding: 40px 0 ;
   background-image: url("./assets/CrumblePaper.jpeg");
   background-size: cover;
 }
 .second_section_header{
-  padding: 7.5vh 0 0 0 ; 
+  padding: 5vh 0 0 0 ; 
   font-size: 40px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 750;
   color: #03859e;
 }
 .second_section_text{
-  padding: 20px 0 0 0 ;
+  padding: 10px 0 0 0 ;
   margin: auto; 
   font-weight: 600;
-  font-size: 17px;
-  max-width: 50%;
-  min-width: 50%;
+  font-size: 15px;
+  max-width: 45%;
+  min-width: 45%;
   text-align: center;
   color: #03859e;
+}
+.second_section_boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+}
+.one_service{
+  text-align: center;
+  min-width: 15%;
+  max-width: 15%;
+  color: #324a5a;
+  margin: 0 3vw;
+}
+.one_service_head{
+  font-weight: 700;
+  margin: 15px auto 5px auto;
+}
+.one_service_text{
+  font-weight: 700;
+  font-size: 9px;
+  margin: 0 auto;
+}
+.one_service_image{
+  min-width: 20%;
+  max-width: 20%;
+  margin: 0 auto;
+}
+.one_service_click{
+  font-size: 8px;
+  margin: 15px auto 0 auto;
+}
+.third_section{
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 100%;
+  padding: 10px 0 ;
+  background-image: url("./assets/journey.png");
+  background-size: cover;
 }
