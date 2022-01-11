@@ -125,7 +125,8 @@ body {
   cursor: pointer;
 }
 .third_section_button:hover{
-  background-color: #324a5a;
+  background-color: transparent;
   color: white;
+  border: 1px solid white;
   transition: ease;
 }
