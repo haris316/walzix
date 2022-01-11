@@ -18,6 +18,7 @@ body {
   align-items: center;
 }
 .navbar_one_item {
+  cursor: pointer;
   color: white;
   min-width: 15%;
   max-width: 15%;
@@ -88,6 +89,7 @@ body {
 .one_service_click{
   font-size: 8px;
   margin: 15px auto 0 auto;
+  cursor: pointer;
 }
 .third_section{
   min-height: 80vh;
@@ -118,5 +120,12 @@ body {
   font-weight: bold;
   text-align: center;
   background-color: white;
-  color: #324a5a
+  color: #324a5a;
+  transition: ease;
+  cursor: pointer;
+}
+.third_section_button:hover{
+  background-color: #324a5a;
+  color: white;
+  transition: ease;
 }
