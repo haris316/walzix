@@ -1,5 +1,5 @@
 * {
-  font-family: poppins, sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 body {
   margin: 0;
@@ -35,61 +35,73 @@ body {
   color: white;
 }
 .second_section {
-  min-height: 85vh;
-  max-height: 85vh;
+  /* min-height: 85vh;
+  max-height: 85vh; */
   width: 100%;
-  padding: 40px 0 ;
+  padding: 0 0 20px 0;
   background-image: url("./assets/CrumblePaper.jpeg");
   background-size: cover;
 }
 .second_section_header{
+  /* text-decoration: underline; */
   padding: 5vh 0 0 0 ; 
   font-size: 40px;
   text-align: center;
-  font-weight: 750;
-  color: #03859e;
+  font-weight: 800;
+  color: #000000;
 }
 .second_section_text{
-  padding: 10px 0 0 0 ;
+  padding: 20px 0 50px 0 ;
   margin: auto; 
-  font-weight: 600;
-  font-size: 15px;
-  max-width: 45%;
-  min-width: 45%;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 53%;
+  min-width: 53%;
   text-align: center;
-  color: #03859e;
+  color: #000000;
 }
 .second_section_boxes{
-  display: flex;
+  display: -webkit-inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 10vh auto;
+  margin: 3vh auto;
 }
 .one_service{
+  align-self: flex-end;
   text-align: center;
   min-width: 15%;
   max-width: 15%;
-  color: #324a5a;
-  margin: 0 3vw;
+  color: #000000;
+  margin: 0 5vw;
 }
 .one_service_head{
-  font-weight: 700;
+  font-weight: 500;
   margin: 15px auto 5px auto;
+  font-size: 15px;
+  /* text-decoration: underline; */
 }
 .one_service_text{
-  font-weight: 700;
-  font-size: 9px;
-  margin: 0 auto;
+  font-weight: 400;
+  font-size: 12px;
+  /* margin: 0 auto; */
 }
 .one_service_image{
   min-width: 20%;
   max-width: 20%;
   margin: 0 auto;
+  height: 40px;
 }
 .one_service_click{
-  font-size: 8px;
-  margin: 15px auto 0 auto;
+  background-image: linear-gradient(to right, #003d49 , #03859e);
+  font-size: 12px;
+  margin: 25px auto 0 auto;
   cursor: pointer;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
 }
 .third_section{
   min-height: 80vh;
@@ -102,7 +114,7 @@ body {
 .third_section_head{
   padding: 100px 0 0 60px ;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 800; 
 }
 .third_section_text{
   padding: 0 60px;
