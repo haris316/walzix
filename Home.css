@@ -239,7 +239,7 @@ body {
 
 .sixth_section_blog{
   color: #00596b;
-  margin:0 2% 5% 2%;
+  margin:5% auto;
   min-width: 100%;
   max-width: 100%;
 }
@@ -291,8 +291,56 @@ body {
 }
 .seventh_section{
   background-color: #003d49;
-  padding: 200px 0 ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
+.seventh_section_item{
+  min-width: 30%;
+  max-width: 30%;
+  margin: 5% 0 5% 5%;
+  text-align: justify;
+  color: white;
+}
+.seventh_section_input_item{
+  min-width: 50%;
+  max-width: 50%;
+  margin: 5%;
+  color: white;
+}
+.seventh_section_button{
+  min-width: 40%;
+  max-width: 40%;
+  margin: 25px 0 0  0;
+  background-color: white;
+  color: #003d49;
+  padding: 10px;
+  border-radius: 10px;
+}
+.seventh_section_input_item_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2.5% 0;
+}
+.seventh_section_item_input{
+  min-width: 45%;
+  max-width: 45%;
+  padding: 10px;
+  border : 0px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+.seventh_section_item_head{
+  font-size: 40px;
+  font-weight: bold;
+}
+.seventh_section_item_text{
+  font-size: 15px;
+  margin-top: 20px;
+}
+
 .eighth_section{
   background-color: white;
   min-width: 100%;
@@ -334,8 +382,59 @@ body {
 .eighth_section_element_items_text{
   font-size: 10px;
 }
-
 .footer{
   background-color: #003d49;
-  padding: 120px 0 ;
+  padding: 40px 0 ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width:100% ;
+  max-width:100% ;
+  color: white;
+}
+.footer_item{
+  min-width:20%;
+  max-width:20%;
+  /* border-left: 2.5px solid white; */
+  text-align: left;
+  padding: 0 0 0 3%;
+  margin: 0 3% 0 0;
+}
+.footer_item_head{
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer_item_text{
+  margin: 10px 0 0 0 ;
+  font-size: 15px;
+}
+.footer_spacer{
+  color: transparent;
+  padding: 6% 0;
+  background-color: white;
+  min-width: 2px;
+  max-width: 2px;
+}
+.footer_item_icons{
+margin: 10px 0 0 0  ;
+}
+.footer_item_input{
+background-color: transparent;
+border-radius: 5px;
+border: 1px solid white;
+padding: 5px;
+margin: 15px 0 10px 0;
+width: 100%;
+}
+.footer_item_button{
+  width: 100%;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  color:#003d49 ;
+  padding: 5px 5px;
+  margin: 10px 0;
+  text-align: center;
 }
