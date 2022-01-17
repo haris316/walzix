@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+h2{
+  font-size: 25px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+}
+
 .first_section {
   min-height: 100vh;
   max-height: 100vh;
@@ -56,8 +62,6 @@ body {
 .second_section_text{
   padding: 20px 0 50px 0 ;
   margin: auto; 
-  font-weight: 400;
-  font-size: 16px;
   max-width: 53%;
   min-width: 53%;
   text-align: center;
@@ -109,8 +113,8 @@ body {
   display: inline-block;
 }
 .third_section{
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 90vh;
+  max-height: 90vh;
   width: 100%;
   background-image: url("./assets/journey.jpg");
   background-size: cover;
@@ -118,20 +122,20 @@ body {
   background-position: center;
 }
 .third_section_head{
-  padding: 100px 0 20px 60px ;
+  padding: 40px 0 20px 60px ;
   font-size: 60px;
   font-weight: 700; 
 }
 .third_section_text{
-  padding: 0 60px 40px;
-  min-width: 30%;
-  max-width: 30%;
-  font-size: 18px;
+  padding: 10px 60px 40px;
+  min-width: 42%;
+  max-width: 42%;
+  font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
 .third_section_button{
-  margin: 20px 60px;
+  margin: 10px 60px;
   max-width: 12%;
   min-width: 12%;
   font-size: 18px;
@@ -155,7 +159,7 @@ body {
   background-color: white;
   min-width: 100%;
   max-width: 100%;
-  color: #00596b;
+  color: #000000;
   margin : 2% 0;
   padding: 0 0 4% 0;
 }
@@ -170,8 +174,9 @@ body {
   margin: auto;
   font-weight: bold;
 }
+
 .fourth_section_head_text{
-  font-size: 15px;
+  padding-top: 10px;
   margin: auto;
 }
 .fourth_section_element{
@@ -185,12 +190,17 @@ body {
   max-width: 60%;
   min-width: 60%;
 }
+
+.case-study-logo{
+  height: 60px;
+}
+
 .fourth_section_element_items{
-  max-width: 32%;
-  min-width: 32%;
+  max-width: 35%;
+  min-width: 35%;
 }
 .fourth_section_element_items_head{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
 }
 .fourth_section_element_items_text{
@@ -298,55 +308,73 @@ body {
 }
 .seventh_section{
   /* background-color: #003d49; */
-  background-image: linear-gradient(to right, #003d49 , #03859e);
+  background-image: linear-gradient(to right, #013742 , #005c6e);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .seventh_section_item{
-  min-width: 30%;
-  max-width: 30%;
-  margin: 5% 0 5% 5%;
+  min-width: 40%;
+  max-width: 40%;
+  margin: 4% 0 5% 5%;
   text-align: justify;
   color: white;
 }
 .seventh_section_input_item{
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 45%;
+  max-width: 45%;
   margin: 5%;
   color: white;
 }
 .seventh_section_button{
-  min-width: 40%;
-  max-width: 40%;
+  min-width: 20%;
+  max-width: 20%;
   margin: 25px 0 0  0;
   background-color: white;
   color: #003d49;
   padding: 10px;
   border-radius: 10px;
+  text-align: center;
 }
-.seventh_section_input_item_box{
+.seventh_section_input_boxes{
+  min-width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   margin: 2.5% 0;
 }
+
+.seventh_section_input_item_box{
+  align-content: space-around;
+  border : 0px;
+  width: 50%;
+
+}
 .seventh_section_item_input{
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 90%;
+  max-width: 90%;
   padding: 10px;
   border : 0px;
   border-bottom: 1px solid white;
   background-color: transparent;
+  color: white;
 }
-.seventh_section_item_head{
-  font-size: 40px;
-  font-weight: bold;
+
+::placeholder{
+color: white;
 }
+/* .seventh_section_item_head{
+  min-width: 80%;
+  max-width: 80%;
+} */
 .seventh_section_item_text{
-  font-size: 15px;
+  min-width: 80%;
+  max-width: 80%;
   margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ebe8e8;
 }
 
 .eighth_section{
@@ -446,3 +474,4 @@ width: 100%;
   margin: 10px 0;
   text-align: center;
 }
+
