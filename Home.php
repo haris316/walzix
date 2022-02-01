@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <title>Home | Walzix Digitals</title>
 </head>
-
+ 
 <body>
   <?php
   require('Header.php');
