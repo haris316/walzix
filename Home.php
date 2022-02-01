@@ -10,25 +10,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <title>Home</title>
+  <title>Home | Walzix Digitals</title>
 </head>
 
 <body>
+  <?php
+  require('Header.php');
+  ?>
   <div class="first_section">
-    <?php
-    require('Header.php');
-    ?>
-    <!-- <div class="navbar">
-        <div class="navbar_one_item">LOREM IPSUM</div>
-        <div class="navbar_one_item">LOREM IPSUM</div>
-        <div class="navbar_one_item">LOREM IPSUM</div>
-        <div class="navbar_one_item">LOREM IPSUM</div>
-      </div> -->
-    <!-- <div class="first_section_header">
-      <div>DIGITAL</div>
-      <div style="font-weight: 500; color: #03859e">MARKETING</div>
-      <div>COMPANY</div>
-    </div> -->
+    <div class="first_section_heading_section">
+      <h1 class="first_section_heading">
+        Custom </h1>
+      <h1 class="first_section_heading" style="color: #37a4a0 !important;font-weight:700;">Software</h1> <br>
+      <h1 class="first_section_heading">Development</h1>
+      <br>
+      <h3 class="first_section_content">From planning to deployment, our expert team ensures that all your requirements are fully implemented, and positive business growth follows the application of your software.
+      </h3>
+      <a>
+        <button class="first_section_button">
+          Connect with us
+        </button>
+      </a>
+    </div>
   </div>
   <div class="second_section">
     <div class="second_section_header">YOUR GATEWAY TO TECHNOLOGY</div>
@@ -85,9 +88,9 @@
       </div>
     </div>
     <div class="fourth_section_element">
-      <img src="assets/3.png" class="fourth_section_element_image" />
+      <img src="assets/2.png" class="fourth_section_element_image" />
       <div class="fourth_section_element_items">
-        <img class="case-study-logo" src="assets/skinslogo.png" />
+        <img class="case-study-logo" src="assets/skinslogo1.jpg" />
         <div class="fourth_section_element_items_head">SKINS APPAREL</div>
         <div class="fourth_section_element_items_text">
           A streamlined platform created using agile methodologies in order to provide a one stop solution for potential buyers. Users can browse through a collection of luxury apparel, place orders, and have them delivered, all through a single platform.
@@ -97,20 +100,20 @@
     </div>
     <div class="fourth_section_element">
       <div class="fourth_section_element_items">
-        <img src="assets/apple.png" />
-        <div class="fourth_section_element_items_head">TCG</div>
+        <img src="assets/tcgfish.png" class="case-study-logo" />
+        <div class="fourth_section_element_items_head">TCG FISH</div>
         <div class="fourth_section_element_items_text">
-        A card rating database designed for collectors and card enthusiasts. View real time stats, browse through the latest card statistics, and have the complete database information of millions of cards, in the palm of your hand.
+          A card rating database designed for collectors and card enthusiasts. View real time stats, browse through the latest card statistics, and have the complete database information of millions of cards, in the palm of your hand.
         </div>
         <div class="fourth_section_element_items_button">View Case Study</div>
       </div>
-      <img src="assets/tcg.png" class="fourth_section_element_image" />
+      <img src="assets/1.png" class="fourth_section_element_image" />
     </div>
     <div class="fourth_section_element">
       <img src="assets/3.png" class="fourth_section_element_image" />
       <div class="fourth_section_element_items">
-        <img src="assets/apple.png" />
-        <div class="fourth_section_element_items_head">LOREM IPSUM</div>
+        <img src="assets/markit.png" class="case-study-logo" />
+        <div class="fourth_section_element_items_head">MARK-IT</div>
         <div class="fourth_section_element_items_text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
@@ -217,7 +220,7 @@
     <div class="eighth_section_element">
       <div class="eighth_section_element_head">AWARDS & RECOGNITIONS</div>
       <div class="eighth_section_element_items">
-        <div class="eighth_section_element_items_one">
+        <div class="eighth_section_element_items_one" style="margin-bottom: 80px;">
           <img src="./assets/awards-1.png" class="eighth_section_element_items_image" />
           <div class="eighth_section_element_items_head">Lorem Ipsum</div>
           <div class="eighth_section_element_items_text">
@@ -235,7 +238,7 @@
             ipsum dolor sit amet, consectetur adipiscing elit
           </div>
         </div>
-        <div class="eighth_section_element_items_one">
+        <div class="eighth_section_element_items_one" style="margin-bottom: 80px;">
           <img src="./assets/awards-3.png" class="eighth_section_element_items_image" />
           <div class="eighth_section_element_items_head">Lorem Ipsum</div>
           <div class="eighth_section_element_items_text">
@@ -253,7 +256,7 @@
             ipsum dolor sit amet, consectetur adipiscing elit
           </div>
         </div>
-        <div class="eighth_section_element_items_one">
+        <div class="eighth_section_element_items_one" style="margin-bottom: 80px;">
           <img src="./assets/awards-5.png" class="eighth_section_element_items_image" />
           <div class="eighth_section_element_items_head">Lorem Ipsum</div>
           <div class="eighth_section_element_items_text">
