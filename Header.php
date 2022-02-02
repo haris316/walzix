@@ -92,7 +92,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Work</a>
+                                <a href="Portfolio.php">Portfolio</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Services <i class="fa fa-angle-down"></i></a>
