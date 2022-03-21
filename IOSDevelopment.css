@@ -1,0 +1,279 @@
+.IOS_Development {
+    padding: 70px 0;
+    min-height: 100vh;
+    background-color: #016e7c;
+}
+
+/* FIRST SECTION : BLUE*/
+.IOS_first_section {
+    padding: 100px 0;
+    color: white;
+    background-color: #016e7c;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.IOS_first_section_left {
+    text-align: left;
+    padding: 0 25px 25px 25px;
+    min-width: 30%;
+    max-width: 35%;
+    font-size: 250%;
+    font-weight: 1000;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+.IOS_first_section_right {
+    text-align: center;
+    min-width: 35%;
+    max-width: 35%;
+}
+
+.IOS_first_section_right_text {
+    font-size: small;
+    text-align: justify;
+    padding: 0 0 0 50px;
+    margin: 0 0 25px 0;
+    border-left: 2px solid white;
+}
+
+.IOS_first_section_right_button {
+    cursor: pointer;
+    color: #016e7c;
+    margin: 0 0 0 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 25px;
+    min-width: none;
+    max-width: fit-content;
+    transition: linear 0.2s;
+    border: 2px solid #016e7c;
+}
+
+.IOS_first_section_right_button:hover {
+    color: white;
+    background-color: #016e7c;
+    border: 2px solid white;
+}
+
+/* SECOND SECTION : GREY */
+
+.IOS_second_section {
+    padding: 10vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.IOS_second_section_left {
+    min-width: 25%;
+    max-width: 30%;
+    text-align: justify;
+    margin: 0 10% 0 0;
+    color: white;
+}
+
+.IOS_second_section_left_heading {
+    font-weight: 1000;
+    font-size: 300%;
+    padding: 0 0 25px 0;
+}
+
+.IOS_second_section_left_text {
+    font-size: medium;
+}
+
+.IOS_second_section_left_image {
+    position: relative;
+    max-height: 500px;
+    float: left;
+    transform: translateX(-50%)translateY(5%);
+}
+
+.IOS_second_section_right {
+    min-width: 35%;
+    max-width: 40%;
+    color: white;
+    padding: 30px 0 0 0;
+}
+
+.IOS_second_section_right_oneBox_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.IOS_second_section_right_oneBox {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 50px;
+    min-width: 80%;
+    max-width: 80%;
+    margin: 0 0 20px 5%;
+}
+
+.IOS_second_section_right_oneBox_spacer {
+    background-color: transparent;
+    min-width: 1%;
+    max-width: 1%;
+}
+
+.IOS_second_section_right_oneBox_spacer_white {
+    background-color: white;
+    border-radius: 10px;
+    min-width: 1%;
+    max-width: 1%;
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.IOS_second_section_right_oneBox_heading {
+    color: #016e7c;
+    font-size: 150%;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+.IOS_second_section_right_oneBox_text {
+    font-size: small;
+    text-align: justify;
+    color: #333333cc;
+}
+
+/* THIRD SECTION : WHITE */
+.IOS_third_section {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.IOS_third_section_header {
+    text-align: center;
+    max-width: 60%;
+    font-size: 270%;
+    margin: auto;
+    color: #016e7c;
+    padding: 0 0 20px 0;
+    font-weight: 900;
+}
+
+.IOS_third_section_text {
+    text-align: center;
+    max-width: 70%;
+    font-size: 90%;
+    font-weight: 500;
+    margin: auto;
+    color: #016e7c;
+    padding: 0 0 20px 0;
+}
+
+.IOS_third_section_box_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0 0 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.IOS_third_section_box_oneBox {
+    min-width: 20%;
+    max-width: 25%;
+    margin: 0 10px 50px 0;
+}
+
+.IOS_third_section_box_head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.IOS_third_section_box_head_image {
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.IOS_third_section_box_head_text {
+    font-size: 130%;
+    font-weight: 600;
+    color: #016e7c;
+}
+
+.IOS_third_section_box_text {
+    font-size: 80%;
+    line-height: 15px;
+    color: #333333cc;
+    padding: 10px 0 0 10%;
+}
+/* FOURTH SECTION : LIGHT GRAY */
+.IOS_fourth_section{
+    background-color: #eeeeee;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.IOS_fourth_section_left{
+    min-width: 35%;
+    max-width: 35%;
+    padding:  25px 0 0 0;
+}
+.IOS_fourth_section_left_head{
+    font-size: 200%;
+    color: #016e7c;
+    font-weight: 900;
+}
+.IOS_fourth_section_left_text{
+    padding:  15px 12% 0 0;
+    font-size: 90%;
+    color: #333333cc;
+}
+.IOS_fourth_section_right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-width: 35%;
+    max-width: 35%;
+}
+.IOS_fourth_section_right_icon{
+    margin: 0 0 4% 0;
+    padding: 10px 15px;
+    min-height: 90px;
+    max-height: 90px;
+}
+
+
+
+
+::-webkit-scrollbar {
+    position: absolute;
+    z-index: 1005 !important;
+    width: 10px;
+    border-radius: 5px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #cccccc;
+    border: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333aa;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #333333aa;
+  }
