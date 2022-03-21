@@ -83,7 +83,7 @@ h2 {
 }
 .second_section .second_section_element:nth-child(2) {
     position: sticky;
-    background-image: linear-gradient(to bottom, #141680e0 , #005085 );
+    background-image: linear-gradient(to bottom, #141680 , #005085 );
     background-size: cover;
     width: 100%;
     /* margin: 4% 7% 0 7%; */
@@ -96,7 +96,7 @@ h2 {
 }
 .second_section .second_section_element:nth-child(3) {
     position: sticky;
-    background-image: linear-gradient(to bottom, #ee0000ce,#9b0000);
+    background-image: linear-gradient(to bottom, #ee0000,#9b0000);
     background-size: cover;
     width: 100%;
     /* margin: 4% 7% 0 7%; */
@@ -109,8 +109,8 @@ h2 {
 }
 
 .second_section_element_image {
-    max-width: 60%;
-    min-width: 60%;
+    max-width: 700px;
+    max-height: 500px;
 }
 
 .case-study-logo {
@@ -135,12 +135,12 @@ h2 {
 }
 
 .second_section_element_items_button {
-    color: white;
+    color: rgb(0, 0, 0);
     width: fit-content;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     padding: 7px 15px;
     border-radius: 7px;
-    background-image: linear-gradient(to right, #013036, #007585);
+    background-color: white;
 }

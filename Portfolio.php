@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <title>Portfolio | Walzix Digitals</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 
 <body>

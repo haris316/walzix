@@ -38,7 +38,7 @@ a{
 }
 
 .header{
-    padding: 10px 0 0 0;
+    padding: 10px 0 10px 0 !important;
 	display: block;
 	width: 100%;
 	position: fixed;
@@ -51,8 +51,9 @@ a{
     margin-left: 50px;
 }
 .header .logo a img{
-    width: 120px;
-    padding-left: 20px;
+	content: url(assets/logowhite.png);
+    width: 160px;
+    padding: 5px 0 0 20px;
 }
 
 .header .item-center{
@@ -422,11 +423,11 @@ a{
 .headerbutton{
     background-color: white;
     color: #122b32;
-    padding: 6px 15px 6px 15px;
+    padding: 10px 17px 10px 17px;
     font-weight: 600;
     border: 2px solid #013036;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -442,6 +443,10 @@ a{
     background-color: rgb(255, 255, 255);
     padding: 10px 0 0 0;
     border-bottom: 1px solid black;
+  }
+
+  .sticky .logo a img{
+	  content: url(assets/logo.png);
   }
 
   .sticky .menu > ul > li > a{

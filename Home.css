@@ -186,6 +186,7 @@ h2{
   color: #000000;
   margin : 2% 0;
   padding: 0 0 4% 0;
+  position: relative;
 }
 .fourth_section_head_section{
   min-width: 50%;
@@ -196,6 +197,14 @@ h2{
 .fourth_section_head{
   font-size: 40px;
   margin: auto;
+  color: #000000;
+  font-weight: 800;
+}
+
+.fourth_section_head:hover{
+  font-size: 40px;
+  margin: auto;
+  color: #007585;
   font-weight: 800;
 }
 
@@ -203,12 +212,56 @@ h2{
   padding-top: 10px;
   margin: auto;
 }
-.fourth_section_element{
+
+.fourth_section .fourth_section_element{
   margin: 4% 7% 0 7%;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  min-height: 70vh;
+  background-color: white;
+}
+
+.fourth_section .fourth_section_element:nth-child(1) {
+  margin: 4% 7% 0 7%;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+  position: sticky;
+  min-height: 70vh;
+  background-color: white;
+}
+
+.fourth_section .fourth_section_element:nth-child(2) {
+  margin: 4% 7% 0 7%;
+  top: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  min-height: 70vh;
+  background-color: white;
+}
+
+.fourth_section .fourth_section_element:nth-child(3) {
+  margin: 4% 7% 0 7%;
+  top: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  min-height: 70vh;
+  background-color: white;
 }
 .fourth_section_element_image{
   max-width: 60%;
@@ -280,37 +333,43 @@ h2{
 }
 
 .sixth_section_blog{
+  text-align: center;
   color: #013036;
   margin:2% 0 4% 0;
   min-width: 100%;
   max-width: 100%;
 }
 .sixth_section_blog_head{
+  color: black;
   font-size: 45px;
   font-weight: bold;
   text-align: center;
   padding: 1% 0 4% 0;
 }
+
+.sixth_section_blog_head:hover{
+  color:#007585;
+}
 .sixth_section_blog_items{
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .sixth_section_blog_items_one{
   min-width:19%;
-  max-width:19%;
+  max-width:25%;
   margin : 0 20px;
   text-align: center;
 }
 .sixth_section_blog_items_image{
   width: 100%;
   min-height: 23vh;
-  max-height: 23vh;
+  max-height: 27vh;
   overflow: hidden;
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 .sixth_section_blog_items_head{
-  font-size: 30px;
+  font-size: 17px;
   padding-left: 5px;
   text-align: left;
   font-weight: bold;

@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <title>Home | Walzix Digitals</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
       <br>
       <h3 class="first_section_content">From planning to deployment, our expert team ensures that all your requirements are fully implemented, and positive business growth follows the application of your software.
       </h3>
-      <a>
+      <a href="Contactus.php">
         <button class="first_section_button">
           Connect with us
         </button>
@@ -82,7 +83,7 @@
   </div>
   <div class="fourth_section">
     <div class="fourth_section_head_section">
-      <div class="fourth_section_head">OUR PORTFOLIO</div>
+      <a href="Portfolio.php"><div class="fourth_section_head">OUR PORTFOLIO</div></a>
       <div>
         <h2 class="fourth_section_head_text">Turning concepts to reality is our bread and butter. And our clients love it.</h2>
       </div>
@@ -135,46 +136,22 @@
   </div>
   <div class="sixth_section">
     <div class="sixth_section_blog">
-      <div class="sixth_section_blog_head">INSIGHTS</div>
+    <a href="Insights.php"><div class="sixth_section_blog_head">INSIGHTS</div></a>
       <div class="sixth_section_blog_items">
         <div class="sixth_section_blog_items_one">
-          <img src="./assets/blogs-1.png" class="sixth_section_blog_items_image" />
-          <div class="sixth_section_blog_items_head">Lorem Ipsum</div>
+          <img src="./assets/meta1.jpg" class="sixth_section_blog_items_image" />
+          <div class="sixth_section_blog_items_head">Into The Metaverse<br><br></div>
           <div class="sixth_section_blog_items_gap"></div>
           <div class="sixth_section_blog_items_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit
+            Remember the 2009 movie WALL-E, which showed a bleak future where humans are unable to move, simply living on the experience that machines churned out for them? Why does that seem to be the future we’re moving towards?
           </div>
         </div>
         <div class="sixth_section_blog_items_one">
-          <img src="./assets/blogs-2.png" class="sixth_section_blog_items_image" />
-          <div class="sixth_section_blog_items_head">Lorem Ipsum</div>
+          <img src="./assets/meta2.jpg" class="sixth_section_blog_items_image" />
+          <div class="sixth_section_blog_items_head">The Metaverse: a digital home away from home?</div>
           <div class="sixth_section_blog_items_gap"></div>
           <div class="sixth_section_blog_items_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit
-          </div>
-        </div>
-        <div class="sixth_section_blog_items_one">
-          <img src="./assets/blogs-3.png" class="sixth_section_blog_items_image" />
-          <div class="sixth_section_blog_items_head">Lorem Ipsum</div>
-          <div class="sixth_section_blog_items_gap"></div>
-          <div class="sixth_section_blog_items_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit
-          </div>
-        </div>
-        <div class="sixth_section_blog_items_one">
-          <img src="./assets/blogs-4.png" class="sixth_section_blog_items_image" />
-          <div class="sixth_section_blog_items_head">Lorem Ipsum</div>
-          <div class="sixth_section_blog_items_gap"></div>
-          <div class="sixth_section_blog_items_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit
+            It’s been a few years since I played the Sims, and I remember loving being able to build what I wanted, the way I wanted it. And some part of me is hyped for Facebook’s latest innovation, the Metaverse.
           </div>
         </div>
       </div>
@@ -268,7 +245,7 @@
       </div>
     </div>
   </div>
-<?php require('Footer.php');?>
+  <?php require('Footer.php'); ?>
 </body>
 
 </html>
