@@ -204,7 +204,83 @@
                 <img class="IOS_fourth_section_right_icon" src="./assets/IOS/8.png" />
             </div>
         </div>
+        <div class="IOS_fith_section">
+            <div class="IOS_fith_section_heading">Frequently Asked Questions</div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <a>What can JavaScript Do?</a>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>How JavaScript Can Modify HTML and CSS Values?</a>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>What Is SVG?</a>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>Is FAQ Section Matters In Website?</a>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>How To Create a Light FAQ Element?</a>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seventh_section">
+            <div class="seventh_section_item">
+                <!-- <div class="seventh_section_item_head">Get In Touch</div> -->
+                <div>
+                    <h2 class="seventh_section_item_head">Want your idea turned into a reality?<br>Reach out to us!</h2>
+                </div>
+                <div class="seventh_section_item_text">
+                    Bring your idea to life.
+                    Have a concept that you need to propel to success?
+                </div>
+            </div>
+            <div class="seventh_section_input_item">
+                <div class="seventh_section_item_text">
+                    Let’s discuss and streamline it, from ideation to fruition.
+                </div>
+                <div class="seventh_section_input_boxes">
+                    <div class="seventh_section_input_item_box">
+                        <input class="seventh_section_item_input" placeholder="Enter your Email" />
+                    </div>
+                    <div class="seventh_section_input_item_box">
+                        <input class="seventh_section_item_input" placeholder="Enter your Email" />
+                    </div>
+                </div>
+                <div class="seventh_section_input_boxes">
+                    <div class="seventh_section_input_item_box">
+                        <input class="seventh_section_item_input" placeholder="Enter your Email" />
+                    </div>
+                    <div class="seventh_section_input_item_box">
+                        <input class="seventh_section_item_input" placeholder="Enter your Email" />
+                    </div>
+                </div>
+                <div class="seventh_section_button">
+                    Submit
+                </div>
+            </div>
+        </div>
+        <?php
+        require('Footer.php');
+        ?>
     </div>
 </body>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src="faq.js"></script>
 
 </html>
