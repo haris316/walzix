@@ -72,10 +72,10 @@
                                         <p class="main-desc">These are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our services</p>
                                     </div>
                                     <div class="list-item">
-                                        <h4 class="title">Application Development</h4>
+                                        <a href="AppDevelopment.php"><h4 class="title">Application Development</h4></a>
                                         <p>Details</p>
                                         <p class="submenu-spacer"></p>
-                                        <h4 class="title">IOS Development</h4>
+                                        <a href="IOSDevelopment.php"><h4 class="title">IOS Development</h4></a>
                                         <p>Details</p>
                                         <p class="submenu-spacer"></p>
                                         <h4 class="title">Blockchain Development</h4>

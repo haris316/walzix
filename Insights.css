@@ -1,0 +1,91 @@
+* {
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  
+  h2{
+    font-size: 25px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+  }
+
+.first_section {
+    min-height: 100vh;
+    /* max-height: 100vh; */
+    background: url("assets/insights/banner.png");
+    background-size: cover; 
+  }
+
+.cta{
+    background-color: #164d5a ;
+    /* background-image: linear-gradient(to right, #013036 , #007585); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cta_item{
+    min-width: 40%;
+    max-width: 40%;
+    margin: 4% 0 5% 5%;
+    text-align: justify;
+    color: white;
+  }
+  .cta_input_item{
+    min-width: 45%;
+    max-width: 45%;
+    margin: 5%;
+    color: white;
+  }
+  .cta_button{
+    min-width: 20%;
+    max-width: 20%;
+    margin: 25px 0 0  0;
+    cursor: pointer;
+    background-color: white;
+    color: #003d49;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .cta_input_boxes{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5% 0;
+  }
+  
+  .cta_input_item_box{
+    align-content: space-around;
+    border : 0px;
+    width: 50%;
+  
+  }
+  .cta_item_input{
+    min-width: 90%;
+    max-width: 90%;
+    padding: 10px;
+    border : 0px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+  }
+  
+  ::placeholder{
+  color: white;
+  }
+  /* .cta_item_head{
+    min-width: 80%;
+    max-width: 80%;
+  } */
+  .cta_item_text{
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ebe8e8;
+  }  
