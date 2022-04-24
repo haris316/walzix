@@ -4,7 +4,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="Header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -47,7 +47,7 @@
             <div class="row v-center">
                 <div class="header-item item-left">
                     <div class="logo">
-                        <a href="Home.php"><img  /></a>
+                        <a href="Home.php"><img /></a>
                     </div>
                 </div>
                 <!-- menu start here -->
@@ -65,41 +65,52 @@
                                 <a href="Portfolio.php">Portfolio</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Services <i class="fa fa-angle-down"></i></a>
+                                <a>Services <i class="fa fa-angle-down"></i></a>
                                 <div class="sub-menu mega-menu mega-menu-column-4">
                                     <div class="list-main-item">
                                         <h3 class="main-title">Our Services</h3>
                                         <p class="main-desc">These are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our services</p>
                                     </div>
                                     <div class="list-item">
-                                        <a href="AppDevelopment.php"><h4 class="title">Application Development</h4></a>
-                                        <p>Details</p>
+                                        <a href="AppDevelopment.php">
+                                            <h4 class="title">Application Development</h4>
+                                        </a>
                                         <p class="submenu-spacer"></p>
-                                        <a href="IOSDevelopment.php"><h4 class="title">IOS Development</h4></a>
-                                        <p>Details</p>
+                                        <a href="IOSDevelopment.php">
+                                            <h4 class="title">IOS Development</h4>
+                                        </a>
                                         <p class="submenu-spacer"></p>
-                                        <h4 class="title">Blockchain Development</h4>
-                                        <p>Details</p>
-                                        <p class="submenu-spacer"></p>
-                                        <h4 class="title">Game Development</h4>
-                                        <p>Details</p>
-                                        <p class="submenu-spacer"></p>
-                                        <h4 class="title">Android Development</h4>
-                                        <p>Details</p>
-                                        <p class="submenu-spacer"></p>
+                                        <a href="WebDevelopment.php">
+                                            <h4 class="title">Web Development</h4>
+                                        </a>
                                     </div>
-                                    <div class="list-item">
-                                        <h4 class="title">Graphics</h4>
+                                    <div class="list-main-item">
+                                        <h4 class="heading">Software Development Cycle</h4>
                                         <ul>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
-                                            <li><a href="#">Lorem Ipsum</a></li>
+                                            <li>
+                                                <h4 class="title">Creativity</h4></a>
+                                                <p class="title-detail">which should be disruptive.</p>
+                                            </li>
+                                            <li>
+                                                <h4 class="title">Responsiveness</h4></a>
+                                                <p class="title-detail">which gives you an edge.</p>
+                                            </li>
+                                            <li>
+                                                <h4 class="title">Execution</h4></a>
+                                                <p class="title-detail">which can only be done right the first time.</p>
+                                            </li>
+                                            <li>
+                                                <h4 class="title">Aesthetic</h4></a>
+                                                <p class="title-detail">which gives you a little flair.</p>
+                                            </li>
+                                            <li>
+                                                <h4 class="title">Time</h4></a>
+                                                <p class="title-detail">which needs to be managed.</p>
+                                            </li>
+                                            <li>
+                                                <h4 class="title">Expense</h4></a>
+                                                <p class="title-detail">which should be minimized.</p>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="list-img-item">

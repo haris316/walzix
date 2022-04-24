@@ -99,7 +99,7 @@
     position: relative;
     max-height: 750px;
     float: left;
-    transform: translateX(-50%)translateY(5%);
+    transform: translateX(-50%),translateY(5%);
 }
 
 .APP_second_section_right {

@@ -381,3 +381,31 @@ h2 {
     font-weight: 300;
     color: #ebe8e8;
 }
+
+
+/* SCROLL BAR CODE */
+::-webkit-scrollbar {
+    position: absolute;
+    z-index: 1005 !important;
+    width: 10px;
+    border-radius: 5px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #cccccc;
+    border: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333333aa;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #333333aa;
+}

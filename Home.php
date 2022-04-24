@@ -46,7 +46,7 @@
         <div class="one_service_text">
           Our team ensures that your application achieves your goals, and provides an unparalleled user experience. With the latest software development tools, we achieve just that.
         </div>
-        <div class="one_service_click">View More ></div>
+        <a  href="IOSDevelopment.php"><div class="one_service_click">View More ></div></a>
       </div>
       <div class="one_service">
         <img class="one_service_image" src="assets/android.svg" />
@@ -54,7 +54,7 @@
         <div class="one_service_text">
           We know how broken apps can lead to reduced customer satisfaction, and that’s why we make sure you get the best mobile app development services for your application needs.
         </div>
-        <div class="one_service_click">View More ></div>
+        <a href="AppDevelopment.php"><div class="one_service_click">View More ></div></a>
       </div>
       <div class="one_service">
         <img class="one_service_image" src="assets/blockchain.svg" />

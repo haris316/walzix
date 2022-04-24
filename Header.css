@@ -152,27 +152,62 @@ a{
   display: flex;
   flex-wrap: wrap;
   padding:20px 15px;
+  background-color: #ffffff;
 }
+
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item{
   flex:0 0 20%;
   padding:0 0px;
 }
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-main-item{
-    flex:0 0 35%;
-    padding:0 40px 0 100px;
+    flex:0 0 30%;
+    padding:0 30px 0 40px;
   }
 
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-img-item{
-    /* padding:0 40px 0 20px; */
+    /* padding:0 40px 0 40px; */
     flex: 0 0 20%;
 }
 
-.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .title{
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-main-item .heading{
+	font-size: 20px;
+	color:#000000;
+	font-weight: 500;
+	line-height: 1;
+	padding:10px 0 0;
+}
+
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-main-item .title{
 	font-size: 16px;
 	color:#016e7c;
 	font-weight: 500;
 	line-height: 1;
 	padding:10px 0 0;
+}
+
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .heading{
+	font-size: 20px;
+	color:#000000;
+	font-weight: 500;
+	line-height: 1;
+	padding:10px 0 0;
+}
+
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .title{
+	font-size: 20px;
+	color:#015f6b;
+	font-weight: 700;
+	line-height: 1;
+	padding:10px 0 0;
+	text-decoration: underline;
+}
+
+.header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .title-detail{
+	font-size: 10px;
+	color:#000000;
+	font-weight: 500;
+	line-height: 1;
+	padding:10px 0 0 5px;
 }
 
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-main-item .main-title{

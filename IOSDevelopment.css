@@ -92,7 +92,7 @@
     position: relative;
     max-height: 500px;
     float: left;
-    transform: translateX(-50%)translateY(5%);
+    transform: translateX(-50%),translateY(5%);
 }
 
 .IOS_second_section_right {
