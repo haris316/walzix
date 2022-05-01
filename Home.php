@@ -77,7 +77,7 @@
   <div class="third_section">
     <div class="third_section_head">Our Journey</div>
     <div class="third_section_text">
-      From a small office in __________, our team started out in 2019. We experienced rapid growth during the pandemic, when several businesses reached out to us for various software and application development projects. Today, we proudly stand 50+ strong, and are capable of creating anything and everything you require.
+      From a small office in Karachi, our team started out in 2019. We experienced rapid growth during the pandemic, when several businesses reached out to us for various software and application development projects. Today, we proudly stand 50+ strong, and are capable of creating anything and everything you require.
     </div>
     <div class="third_section_button">Learn More</div>
   </div>
