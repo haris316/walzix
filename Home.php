@@ -16,7 +16,7 @@
 
 <body>
   <?php
-  require('Header.php');
+  // require('Header.php');
   ?>
   <div class="first_section">
     <div class="first_section_heading_section">
