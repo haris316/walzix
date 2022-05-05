@@ -195,17 +195,150 @@
                 <div class="web_fourth_section_tech_stack">
                     <div class="web_fourth_section_tech_stack_left">
                         <div class="web_fourth_section_tech_stack_heading">Front - End</div>
-                        <div class="web_fourth_section_tech_stack_icons">
-                            <img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" />
-                            <img src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" />
+                        <div id="icons" class="web_fourth_section_tech_stack_icons">
+                            <a href="#react"><img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" /></a>
+                            <a href="#angular"><img href="#angular" src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" /></a>
                             <img src="./assets/web/html-01.png" class="web_fourth_section_tech_stack_icon" />
+                        </div>
+                        <div class="web_fourth_section_tech_stack_heading">Back - End</div>
+                        <div class="web_fourth_section_tech_stack_icons">
+                            <img src="./assets/web/java-script.png" class="web_fourth_section_tech_stack_icon" />
+                            <img src="./assets/web/js.png" class="web_fourth_section_tech_stack_icon" />
+                            <img src="./assets/web/phyton.png" class="web_fourth_section_tech_stack_icon" />
+                        </div>
+                        <div class="web_fourth_section_tech_stack_heading">Infrastructure</div>
+                        <div class="web_fourth_section_tech_stack_icons">
+                            <img src="./assets/web/google-cloud.png" class="web_fourth_section_tech_stack_icon" />
+                            <img src="./assets/web/amazon_web_services-r2.png" class="web_fourth_section_tech_stack_icon" />
+                            <img src="./assets/web/Microsoft-Azure.png" class="web_fourth_section_tech_stack_icon" />
+                        </div>
+                    </div>
+                    <div class="web_fourth_section_tech_stack_right">
+                        <div class="web_fourth_section_tech_stack_top_box">
+                            <div class="web_fourth_section_tech_stack_bottom_box">
+                                <div class="web_fourth_section_tech_stack_content_box">
+                                    <div id="icons">
+                                        <span id="angular">
+                                            <div class="web_fourth_section_tech_stack_right_header">
+                                                <img src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" />
+                                                <div class="web_fourth_section_tech_stack_icon_name">Angular</div>
+                                            </div>
+                                            <div class="web_fourth_section_tech_stack_right_text">
+                                                From loading speed to a multitude of tooling options and much more,
+                                                Angular delivers an engaging and purposeful user experience.
+                                            </div>
+                                        </span>
+                                        <span id="react">
+                                            <div class="web_fourth_section_tech_stack_right_header">
+                                                <img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" />
+                                                <div class="web_fourth_section_tech_stack_icon_name">React</div>
+                                            </div>
+                                            <div class="web_fourth_section_tech_stack_right_text">
+                                                From loading speed to a multitude of tooling options and much more,
+                                                Angular delivers an engaging and purposeful user experience.
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="APP_fith_section">
-            <div class="APP_fith_section_heading">Frequently Asked Questions</div>
+        <div class="web_fifth_section">
+            <div class="web_fifth_section_process">
+                <div class="web_fifth_section_process_content">
+                    <div class="web_fifth_section_process_content_left">
+                        <div class="web_fifth_section_process_content_left_head">Our Process</div>
+                        <div class="web_fifth_section_process_content_left_text">Web <br />Development</div>
+                    </div>
+                    <div class="web_fifth_section_process_content_right">
+                        <div class="web_fifth_section_process_content_right_text">
+                            Partner with one of the leading web development firms and construct a
+                            website that develops brand loyalty, attracts visitors, and increases your
+                            overall digital exposure using programming tools like Python, Angular, and
+                            React.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web_fifth_section_process_steps">
+                <div class="web_fifth_section_process_step">
+                    <div class="web_fifth_section_process_step_number">01</div>
+                    <div class="web_fifth_section_process_step_name">Project Planning</div>
+                    <div class="web_fifth_section_process_step_points">
+                        <ul>
+                            <li class="web_fifth_section_process_step_point">Business analysis</li>
+                            <li class="web_fifth_section_process_step_point">Documenting specifications</li>
+                            <li class="web_fifth_section_process_step_point">Preparing wireframes</li>
+                            <li class="web_fifth_section_process_step_point">Getting client approval</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="web_fifth_section_process_step">
+                    <div class="web_fifth_section_process_step_number">02</div>
+                    <div class="web_fifth_section_process_step_name">UI/UX Design</div>
+                    <div class="web_fifth_section_process_step_points">
+                        <ul>
+                            <li class="web_fifth_section_process_step_point">Crafting app prototype</li>
+                            <li class="web_fifth_section_process_step_point">Making changes</li>
+                            <li class="web_fifth_section_process_step_point">Getting client approval</li>
+                            <li class="web_fifth_section_process_step_point">Implementing feedback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="web_fifth_section_process_step">
+                    <div class="web_fifth_section_process_step_number">03</div>
+                    <div class="web_fifth_section_process_step_name">Development</div>
+                    <div class="web_fifth_section_process_step_points">
+                        <ul>
+                            <li class="web_fifth_section_process_step_point">Development strategy</li>
+                            <li class="web_fifth_section_process_step_point">Testing strategy</li>
+                            <li class="web_fifth_section_process_step_point">Product development</li>
+                            <li class="web_fifth_section_process_step_point">Product release</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="web_fifth_section_process">
+                <div class="web_fifth_section_process_content">
+                    <div class="web_fifth_section_process_content_left">
+                        <div class="web_fifth_section_process_content_left_head">Key Highlights</div>
+                        <div class="web_fifth_section_process_content_left_text">Our work in<br />Numbers.</div>
+                    </div>
+                    <div class="web_fifth_section_process_content_right">
+                        <div class="web_fifth_section_process_content_right_text">
+                            Build your web presence to thrive just like many others have, and let experienced
+                            technicians and digital creators develop functionalities that rivet your target
+                            audience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web_fifth_section_counters_container">
+                <div class="web_fifth_section_counters">
+                    <div class="web_fifth_section_counter">
+                        <div class="web_fifth_section_counter_value"><span class="Count">12</span>+</div>
+                        <div class="web_fifth_section_counter_name">Years</div>
+                    </div>
+                    <div class="web_fifth_section_counter">
+                        <div class="web_fifth_section_counter_value"><span class="Count">200</span>+</div>
+                        <div class="web_fifth_section_counter_name">Employees</div>
+                    </div>
+                    <div class="web_fifth_section_counter">
+                        <div class="web_fifth_section_counter_value"><span class="Count">600</span>+</div>
+                        <div class="web_fifth_section_counter_name">Projects</div>
+                    </div>
+                    <div class="web_fifth_section_counter">
+                        <div class="web_fifth_section_counter_value"><span class="Count">550</span>+</div>
+                        <div class="web_fifth_section_counter_name">Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web_sixth_section">
+            <div class="web_sixth_section_heading">Frequently Asked Questions</div>
             <div class="accordion">
                 <div class="accordion-item">
                     <a>What can JavaScript Do?</a>
@@ -276,11 +409,15 @@
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    </div>
     <?php
     require('Footer.php');
     ?>
 </body>
 <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script src="faq.js"></script>
+<script src="Counter.js"></script>
 
 </html>
