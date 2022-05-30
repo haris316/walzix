@@ -65,7 +65,7 @@
                                 <a href="Portfolio.php">Portfolio</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a>Services <i class="fa fa-angle-down"></i></a>
+                                <a style="cursor:pointer">Services <i class="fa fa-angle-down"></i></a>
                                 <div class="sub-menu mega-menu mega-menu-column-4">
                                     <div class="list-main-item">
                                         <h3 class="main-title">Our Services</h3>
