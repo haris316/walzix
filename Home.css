@@ -333,6 +333,46 @@ h2 {
   padding-bottom: 4%;
 }
 
+
+/* ############################################################################# */
+  .section-padding{
+  padding:0px 15%;
+  }
+  .brand-carousel {
+  /* background: aliceblue; */
+  /* margin-top: 15%; */
+  padding-top: 10px;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center !important;
+  }
+  .owl-dots {
+  text-align: center;
+  margin-top: 4%;
+  }
+  .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0px 5px;
+  }
+  .owl-dot.active {
+  background-color: #000 !important;
+  }
+
+  .single-logo{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* ############################################################################# */
+
 .fifth_section_items {
   padding-top: 10px;
   display: flex;
@@ -341,24 +381,31 @@ h2 {
   align-items: center;
 }
 
+.fifth_section_image {
+  min-width: 50%;
+  max-width: 50%;
+}
+
 .fifth_section_image_center {
-  min-width: 12%;
-  max-width: 12%;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .fifth_section_image_secondlast {
-  min-width: 7.5%;
-  max-width: 7.5%;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .fifth_section_image_last {
-  min-width: 7%;
-  max-width: 7%;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .fifth_section_image_angular {
-  min-width: 12%;
-  max-width: 12%;
+  /* min-width: 100%; */
+  /* max-width: 100%; */
+  /* min-height: 100%; */
+
 }
 
 .sixth_section_blog {
@@ -915,23 +962,23 @@ h2 {
 }
 
 .fifth_section_image_center {
-  min-width: 24%;
-  max-width: 24%;
+  min-width: 25%;
+  max-width: 25%;
 }
 
 .fifth_section_image_secondlast {
-  min-width: 7.5%;
-  max-width: 7.5%;
+  min-width: 25%;
+  max-width: 25%;
 }
 
 .fifth_section_image_last {
-  min-width: 7%;
-  max-width: 7%;
+  min-width: 25%;
+  max-width: 25%;
 }
 
 .fifth_section_image_angular {
-  min-width: 12%;
-  max-width: 12%;
+  /* min-width: 12%; */
+  /* max-width: 12%; */
 }
 
 .sixth_section_blog {

@@ -141,22 +141,69 @@
         </div>
         <div class="web_third_section">
             <div class="web_third_section_left">
-                <img src="./assets/web/food.jpg" class="web_third_section_left_img" />
+                <img src="./assets/web/food.jpg" id="genre-img" class="web_third_section_left_img" />
             </div>
             <div class="web_third_section_right">
                 <div class="web_third_section_right_heading">It doesn't matter what you do.<br />We'll help you reach the top.</div>
                 <div class="web_third_section_right_text">Walzix Digitals helps a plethora of businesses in different
                     industries, which are able to improve their business processes by implementing our web based consultation and services.
                 </div>
-                <div class="web_third_section_right_selections">
-                    <div class="web_third_section_right_selection">Food</div>
-                    <div class="web_third_section_right_selection">E-Commerce</div>
-                    <div class="web_third_section_right_selection">Marketplace</div>
-                    <div class="web_third_section_right_selection">Social</div>
-                    <div class="web_third_section_right_selection">Educational</div>
-                </div>
-                <div class="web_third_section_right_selected">
+                <form class="web_third_section_right_selections">
+                        <input type="radio" name="select" id="option-01" checked/>
+                        <input type="radio" name="select" id="option-02" />
+                        <input type="radio" name="select" id="option-03" />
+                        <input type="radio" name="select" id="option-04" />
+                        <input type="radio" name="select" id="option-05" />
+                        <label for="option-01" class="second_section_buttons_item option-01" onclick="toggleGenre(event, 'food')">
+                        <div class="web_third_section_right_selection">Food</div>
+                        </label>
+                        <label for="option-02" class="second_section_buttons_item option-02" onclick="toggleGenre(event, 'ecommerce')">
+                        <div class="web_third_section_right_selection">E-Commerce</div>
+                        </label>
+                        <label for="option-03" class="second_section_buttons_item option-03" onclick="toggleGenre(event, 'marketplace')">
+                        <div class="web_third_section_right_selection">Marketplace</div>
+                        </label>
+                        <label for="option-04" class="second_section_buttons_item option-04" onclick="toggleGenre(event, 'social')">
+                        <div class="web_third_section_right_selection">Social</div>
+                        </label>
+                        <label for="option-05" class="second_section_buttons_item option-05" onclick="toggleGenre(event, 'educational')">
+                        <div class="web_third_section_right_selection">Educational</div>
+                        </label>
+                </form>
+                <div class="web_third_section_right_selected" id="food">
                     <div class="web_third_section_right_selected_heading">Food</div>
+                    <div class="web_third_section_right_selected_text">
+                        We create cutting-edge on-demand food online products with easy-to-use features
+                        including order tracking, various payment methods, vendor management,
+                        and delivery tracking.
+                    </div>
+                </div>
+                <div class="web_third_section_right_selected" id="ecommerce">
+                    <div class="web_third_section_right_selected_heading">E-Commerce</div>
+                    <div class="web_third_section_right_selected_text">
+                        We create cutting-edge on-demand food online products with easy-to-use features
+                        including order tracking, various payment methods, vendor management,
+                        and delivery tracking.
+                    </div>
+                </div>
+                <div class="web_third_section_right_selected" id="marketplace">
+                    <div class="web_third_section_right_selected_heading">Marketplace</div>
+                    <div class="web_third_section_right_selected_text">
+                        We create cutting-edge on-demand food online products with easy-to-use features
+                        including order tracking, various payment methods, vendor management,
+                        and delivery tracking.
+                    </div>
+                </div>
+                <div class="web_third_section_right_selected" id="social">
+                    <div class="web_third_section_right_selected_heading">Social</div>
+                    <div class="web_third_section_right_selected_text">
+                        We create cutting-edge on-demand food online products with easy-to-use features
+                        including order tracking, various payment methods, vendor management,
+                        and delivery tracking.
+                    </div>
+                </div>
+                <div class="web_third_section_right_selected" id="educational">
+                    <div class="web_third_section_right_selected_heading">Educational</div>
                     <div class="web_third_section_right_selected_text">
                         We create cutting-edge on-demand food online products with easy-to-use features
                         including order tracking, various payment methods, vendor management,
@@ -195,50 +242,143 @@
                 <div class="web_fourth_section_tech_stack">
                     <div class="web_fourth_section_tech_stack_left">
                         <div class="web_fourth_section_tech_stack_heading">Front - End</div>
-                        <div id="icons" class="web_fourth_section_tech_stack_icons">
-                            <a href="#react"><img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" /></a>
-                            <a href="#angular"><img href="#angular" src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" /></a>
+                        <div class="web_fourth_section_tech_stack_icons">
+                        <input type="radio" name="select" id="option-1" checked>
+                        <input type="radio" name="select" id="option-2">
+                        <input type="radio" name="select" id="option-3">
+                        <input type="radio" name="select" id="option-4">
+                        <input type="radio" name="select" id="option-5">
+                        <input type="radio" name="select" id="option-6">
+                        <input type="radio" name="select" id="option-7">
+                        <input type="radio" name="select" id="option-8">
+                        <input type="radio" name="select" id="option-9">
+                        <label for="option-1" class="second_section_buttons_item option-1" onclick="toggleTech(event, 'angular')">
+                            <img src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" /></a>
+                        </label>
+                        <label for="option-2" class="second_section_buttons_item option-2" onclick="toggleTech(event, 'react')">
+                            <img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" /></a>
+                        </label>
+                        <label for="option-3" class="second_section_buttons_item option-3" onclick="toggleTech(event, 'html')">
                             <img src="./assets/web/html-01.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>                            
                         </div>
                         <div class="web_fourth_section_tech_stack_heading">Back - End</div>
                         <div class="web_fourth_section_tech_stack_icons">
+                        <label for="option-4" class="second_section_buttons_item option-4" onclick="toggleTech(event, 'java-script')">
                             <img src="./assets/web/java-script.png" class="web_fourth_section_tech_stack_icon" />
+                        </label> 
+                        <label for="option-5" class="second_section_buttons_item option-5" onclick="toggleTech(event, 'js')">
                             <img src="./assets/web/js.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>   
+                        <label for="option-6" class="second_section_buttons_item option-6" onclick="toggleTech(event, 'python')">
                             <img src="./assets/web/phyton.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>   
                         </div>
                         <div class="web_fourth_section_tech_stack_heading">Infrastructure</div>
                         <div class="web_fourth_section_tech_stack_icons">
+                        <label for="option-7" class="second_section_buttons_item option-7" onclick="toggleTech(event, 'google-cloud')">
                             <img src="./assets/web/google-cloud.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>
+                        <label for="option-8" class="second_section_buttons_item option-8" onclick="toggleTech(event, 'amazon')">
                             <img src="./assets/web/amazon_web_services-r2.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>
+                        <label for="option-9" class="second_section_buttons_item option-9" onclick="toggleTech(event, 'azure')">
                             <img src="./assets/web/Microsoft-Azure.png" class="web_fourth_section_tech_stack_icon" />
+                        </label>                   
                         </div>
                     </div>
                     <div class="web_fourth_section_tech_stack_right">
                         <div class="web_fourth_section_tech_stack_top_box">
                             <div class="web_fourth_section_tech_stack_bottom_box">
-                                <div class="web_fourth_section_tech_stack_content_box">
-                                    <div id="icons">
-                                        <span id="angular">
-                                            <div class="web_fourth_section_tech_stack_right_header">
-                                                <img src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" />
-                                                <div class="web_fourth_section_tech_stack_icon_name">Angular</div>
-                                            </div>
-                                            <div class="web_fourth_section_tech_stack_right_text">
-                                                From loading speed to a multitude of tooling options and much more,
-                                                Angular delivers an engaging and purposeful user experience.
-                                            </div>
-                                        </span>
-                                        <span id="react">
-                                            <div class="web_fourth_section_tech_stack_right_header">
-                                                <img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" />
-                                                <div class="web_fourth_section_tech_stack_icon_name">React</div>
-                                            </div>
-                                            <div class="web_fourth_section_tech_stack_right_text">
-                                                From loading speed to a multitude of tooling options and much more,
-                                                Angular delivers an engaging and purposeful user experience.
-                                            </div>
-                                        </span>
+                                <div class="web_fourth_section_tech_stack_content_box" id="angular"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/angular.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">ANGULAR</div>
                                     </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="react"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/react.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">REACT</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="html"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/html-01.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">HTML</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="java-script"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/java-script.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">JAVASCRIPT</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="js"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/js.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">JS</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="python"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/phyton.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">PYTHON</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="google-cloud"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/google-cloud.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">GOOGLE CLOUD</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="amazon"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/amazon_web_services-r2.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">AMAZON WEB SERVICES</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
+                                </div>
+                                <div class="web_fourth_section_tech_stack_content_box" id="azure"> 
+                                    <div class="web_fourth_section_tech_stack_right_header">
+                                        <img src="./assets/web/Microsoft-Azure.png" class="web_fourth_section_tech_stack_icon" />
+                                        <div class="web_fourth_section_tech_stack_icon_name">MICROSOFT AZURE</div>
+                                    </div>
+                                    <div class="web_fourth_section_tech_stack_right_text">
+                                        From loading speed to a multitude of tooling options and much more,
+                                        Angular delivers an engaging and purposeful user experience.
+                                    </div>                            
                                 </div>
                             </div>
                         </div>
@@ -419,5 +559,6 @@
 <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script src="faq.js"></script>
 <script src="Counter.js"></script>
+<script src="TechStack.js" defer></script>
 
 </html>
