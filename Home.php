@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
   <title>Home | Walzix Digitals</title>
   <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
@@ -126,13 +129,45 @@
   </div>
   <div class="fifth_section">
     <div class="fifth_section_head">TECHNOLOGY STACK</div>
-    <div class="fifth_section_items">
+    <!-- <div class="fifth_section_items">
       <img class="fifth_section_image_last" src="assets/tech-5.png" />
       <img class="fifth_section_image_secondlast" src="assets/tech-4.png" />
       <img class="fifth_section_image_center" src="assets/tech-1.png" />
       <img class="fifth_section_image_secondlast" src="assets/tech-2.png" />
       <img class="fifth_section_image_angular" src="assets/tech-3.png" />
-    </div>
+    </div> -->
+    <div class="brand-carousel section-padding owl-carousel">
+  <div class="single-logo">
+    <img class="fifth_section_image_last" src="assets/tech-5.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_secondlast" src="assets/tech-4.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_center" src="assets/tech-1.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_secondlast" src="assets/tech-2.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_angular" src="assets/tech-3.png" alt="">
+  </div>
+  <div class="single-logo">
+    <img class="fifth_section_image_last" src="assets/tech-5.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_secondlast" src="assets/tech-4.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_center" src="assets/tech-1.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_secondlast" src="assets/tech-2.png" alt="">
+  </div>
+<div class="single-logo">
+    <img class="fifth_section_image_angular" src="assets/tech-3.png" alt="">
+  </div>
+</div>
   </div>
   <div class="sixth_section">
     <div class="sixth_section_blog">
@@ -247,5 +282,7 @@
   </div>
   <?php require('Footer.php'); ?>
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="custom.js"></script>
 </html>
