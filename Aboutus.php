@@ -16,7 +16,7 @@
 
 <body>
     <?php
-    require("Header.php")
+    //require("Header.php")
     ?>
     <div class="first_section">
         <div class="first_section_heading_section">
@@ -123,7 +123,7 @@
             <div class="fourth_section_tagline">
                 Creativity,
                 <div class="fourth_section_content">
-                which should be disruptive.
+                    which should be disruptive.
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
             <div class="fourth_section_tagline">
                 Responsiveness,
                 <div class="fourth_section_content">
-                which gives you an edge.
+                    which gives you an edge.
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
             <div class="fourth_section_tagline">
                 Execution,
                 <div class="fourth_section_content">
-                which can only be done right the first time.
+                    which can only be done right the first time.
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
             <div class="fourth_section_tagline">
                 Aesthetic,
                 <div class="fourth_section_content">
-                which gives you a little flair.
+                    which gives you a little flair.
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
             <div class="fourth_section_tagline">
                 Time,
                 <div class="fourth_section_content">
-                which needs to be managed.
+                    which needs to be managed.
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
             <div class="fourth_section_tagline">
                 Expense,
                 <div class="fourth_section_content">
-                which should be minimized.
+                    which should be minimized.
                 </div>
             </div>
         </div>
