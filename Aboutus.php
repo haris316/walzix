@@ -16,7 +16,7 @@
 
 <body>
     <?php
-    //require("Header.php")
+    require("Header.php")
     ?>
     <div class="first_section">
         <div class="first_section_heading_section">
@@ -45,10 +45,10 @@
                 <p class="second_section_mission_boldcontent">Walzix Digitals prioritizes teamwork and coordination to provide business solutions to clients, achieving profitability through dedication, communication, and expertise.
                 </p>
                 <br>
-                <p class="second_section_mission_content">Our partners’ goals become our own, and we ensure through teamwork and commitment that each and every objective is achieved. By actively consulting with your team and making sure that valuable input is implemented from both sides, our partners are able to gain a competitive edge in their industry.</p>
+                <p class="second_section_mission_content">Our partners' goals become our own, and we ensure through teamwork and commitment that each and every objective is achieved. By actively consulting with your team and making sure that valuable input is implemented from both sides, our partners are able to gain a competitive edge in their industry.</p>
             </div>
         </div>
-        <div style="min-height: 400px;border:2px solid #1c6575">
+        <div class="second_section_divider">
         </div>
         <div class="second_section_vision">
             <div>
@@ -76,10 +76,10 @@
                     </div>
                 </div>
             </div>
-            <div class="third_section_element_boxes_one">
+            <div class="third_section_element_boxes_one white_box">
                 <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer">
-                        <div class="third_section_element_boxes_text">
+                    <div class="third_section_boxes_outer white_box_inner">
+                        <div class="third_section_element_boxes_text white_box_inner_text">
                             Lorem Ipsum
                             <br>
                             Lorem Ipsum
@@ -88,10 +88,10 @@
                     </div>
                 </div>
             </div>
-            <div class="third_section_element_boxes_one">
+            <div class="third_section_element_boxes_one white_box">
                 <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer">
-                        <div class="third_section_element_boxes_text">
+                    <div class="third_section_boxes_outer white_box_inner">
+                        <div class="third_section_element_boxes_text white_box_inner_text">
                             Lorem Ipsum
                             <br>
                             Lorem Ipsum
@@ -214,7 +214,7 @@
         <div class="eighth_section_item">
             <!-- <div class="eighth_section_item_head">Get In Touch</div> -->
             <div>
-                <h2 class="eighth_section_item_head">Want your idea turned into a reality?<br>Reach out to us!</h2>
+                <h2 class="eighth_section_item_head">Want your idea turned into a reality?<br><i style="font-style: italic;"><b>Reach out to us!</b></i></h2>
             </div>
             <div class="eighth_section_item_text">
                 Bring your idea to life.
@@ -223,7 +223,7 @@
         </div>
         <div class="eighth_section_input_item">
             <div class="eighth_section_item_text">
-                Let’s discuss and streamline it, from ideation to fruition.
+                Let's discuss and streamline it, from ideation to fruition.
             </div>
             <div class="eighth_section_input_boxes">
                 <div class="eighth_section_input_item_box">

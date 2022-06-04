@@ -15,10 +15,7 @@
     <div class="footer">
         <div class="footer_item">
             <div class="footer_item_head">Contact Us</div>
-            <div class="footer_item_text">Lorem ipsum dolor sit amet</div>
-            <div class="footer_item_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            </div>
+            <div class="footer_item_text">Lorem ipsum dolor sit amet <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
             <div class="footer_item_icons">
                 <i class="fa fa-facebook-square" style="font-size: 30px; margin: 2px"></i>
                 <i class="fa fa-instagram" style="font-size: 30px; margin: 2px"></i>
@@ -29,20 +26,23 @@
 
         <div class="footer_spacer">" "</div>
         <div class="footer_item">
-            <div class="footer_item_head">Lorem Ipsum</div>
-            <div class="footer_item_text">Lorem ipsum dolor sit amet dorinda</div>
+            <div class="footer_item_head">Still Confused?</div>
+            <div class="footer_item_text">Leave us an email, we release montly new letter updating you about sucessful trends for your business and keep you in the tech-loop.</div>
             <input class="footer_item_input" placeholder="Enter your Email" />
-            <div class="footer_item_button">Lorem ipsum dolor sit</div>
+            <div class="footer_item_button">Subscribe</div>
         </div>
         <div class="footer_spacer">" "</div>
         <div class="footer_item">
-            <div class="footer_item_head">Lorem Ipsum</div>
-            <div class="footer_item_text" style="text-align: justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="footer_item_head">Walzix Digitals</div>
+            <div class="footer_item_text">
+                Walzix Digitals has been the pioneer in software development and customer satisfaction. Your business is our
+                business!
             </div>
-            <div class="footer_item_button">Lorem ipsum dolor sit</div>
+            <div class="footer_item_button">Build with Walzix</div>
         </div>
+    </div>
+    <div class="footer_copyright">
+        Walzix Digital &copy; 2022. All rights reserved
     </div>
 </body>
 </head>
