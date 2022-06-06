@@ -53,9 +53,6 @@
 
         </div>
         <div class="column" style="background-color:#FFF;">
-            <br>
-            <br>
-            <br>
             <div class="contact-fields">
                 <h1 style="color: black;">Let's Start a Project Together</h1>
                 <div class="form">
