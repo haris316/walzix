@@ -228,7 +228,7 @@
       </div>
     </div>
   </div>
-  <div class="eighth_section">
+  <!-- <div class="eighth_section">
     <div class="eighth_section_element">
       <div class="eighth_section_element_head">AWARDS & RECOGNITIONS</div>
       <div class="eighth_section_element_items">
@@ -279,7 +279,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <?php require('Footer.php'); ?>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

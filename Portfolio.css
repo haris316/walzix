@@ -50,7 +50,7 @@ h2 {
     min-width: 100%;
     max-width: 100%;
     color: #000000;
-    position:relative;
+    position: relative;
 }
 
 .second_section .second_section_element {
@@ -70,7 +70,7 @@ h2 {
 
 .second_section .second_section_element:nth-child(1) {
     position: sticky;
-    background-image: linear-gradient(to bottom, #2b2b2b,#8a8a8a);
+    background-image: linear-gradient(to bottom, #2b2b2b, #8a8a8a);
     background-size: cover;
     width: 100%;
     /* margin: 4% 7% 0 7%; */
@@ -81,9 +81,10 @@ h2 {
     padding: 2% 2% 4% 2%;
     min-height: 100vh;
 }
+
 .second_section .second_section_element:nth-child(2) {
     position: sticky;
-    background-image: linear-gradient(to bottom, #141680 , #005085 );
+    background-image: linear-gradient(to bottom, #141680, #005085);
     background-size: cover;
     width: 100%;
     /* margin: 4% 7% 0 7%; */
@@ -94,9 +95,10 @@ h2 {
     padding: 2% 2% 4% 2%;
     min-height: 100vh;
 }
+
 .second_section .second_section_element:nth-child(3) {
     position: sticky;
-    background-image: linear-gradient(to bottom, #ee0000,#9b0000);
+    background-image: linear-gradient(to bottom, #ee0000, #9b0000);
     background-size: cover;
     width: 100%;
     /* margin: 4% 7% 0 7%; */
@@ -171,4 +173,172 @@ h2 {
 
 ::-webkit-scrollbar-thumb:active {
     background: #333333aa;
+}
+
+@media screen and (max-width: 767px) {
+    .first_section {
+        background: linear-gradient(rgb(1, 75, 104, 0), rgb(1, 75, 104, 0)), url("assets/journey2.jpg");
+        min-height: 50vh;
+        max-height: 50vh;
+        width: 100%;
+        background-size: cover;
+        color: white;
+        background-position: center;
+    }
+
+    .first_section_heading_part {
+        /* margin-left: 1vh; */
+        /* margin-top: 3vh; */
+    }
+
+
+    .first_section_heading {
+        max-width: 175px;
+        display: inline;
+        /* max-height: 100px; */
+        /* text-align: center; */
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+        background-color: transparent;
+        color: white;
+    }
+
+
+    .first_section_tagline {
+        padding-top: 15px;
+        max-width: 200px;
+        color: white;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        /* text-align: center; */
+    }
+
+
+    .second_section {
+        background-color: white;
+        min-width: 100%;
+        max-width: 100%;
+        color: #000000;
+        margin: 2% 0;
+        padding: 0 0 4% 0;
+        position: relative;
+    }
+
+    .second_section_head_section {
+        min-width: 90%;
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .second_section_head {
+        font-size: 24px;
+        margin: auto;
+        color: #000000;
+        font-weight: 800;
+    }
+
+    .second_section_head:hover {
+        font-size: 24px;
+        margin: auto;
+        color: #007585;
+        font-weight: 800;
+    }
+
+    .second_section_head_text {
+        padding-top: 10px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .second_section .second_section_element {
+        /* margin: 2% 3% 2% 3%; */
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        min-height: 70vh;
+        background-color: white;
+    }
+
+    .second_section .second_section_element:nth-child(1) {
+        /* margin: 2% 3% 2% 3%; */
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+        align-items: center;
+        position: sticky;
+        min-height: 70vh;
+        background-color: white;
+    }
+
+    .second_section .second_section_element:nth-child(2) {
+        /* margin: 2% 3% 2% 3%; */
+        top: 0;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        min-height: 70vh;
+        background-color: white;
+    }
+
+    .second_section .second_section_element:nth-child(3) {
+        /* margin: 7% 3% 2% 3%; */
+        top: 0;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        min-height: 70vh;
+        background-color: white;
+    }
+
+    .second_section_element_image {
+        max-width: 90%;
+        min-width: 90%;
+        padding: 0;
+        margin: 0;
+        /* align-self: center; */
+    }
+
+    .case-study-logo {
+        height: 40px;
+    }
+
+    .second_section_element_items {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    .second_section_element_items_head {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .second_section_element_items_text {
+        font-size: 12px;
+        margin: 10px 0 10px 0;
+    }
+
+    .second_section_element_items_button {
+        color: white;
+        width: fit-content;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 5px 7px;
+        border-radius: 7px;
+        background-image: linear-gradient(to right, #013036, #007585);
+    }
+
 }
