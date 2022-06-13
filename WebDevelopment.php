@@ -20,10 +20,10 @@
     ?>
     <div class="web_development">
         <div class="web_banner_section">
-            <img src="assets/web/banner.jpg" alt="Web Development" />
+            <!-- <img src="assets/web/banner.jpg" alt="Web Development" /> -->
             <div class="web_banner_heading_section">
                 <div class="web_banner_heading">Professional Web<br />Development Services</div>
-                <div class="web_banner_text">An online presence is pivotal for any business, and we provide the website<br />
+                <div class="web_banner_text">An online presence is pivotal for any business, and we provide the website
                     design and development services that will make your firm stand out from the<br />rest.</div>
                 <a href="./Contactus.php" class="web_banner_button">BUILD YOUR WEBSITE</a>
             </div>
