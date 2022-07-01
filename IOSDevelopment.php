@@ -152,7 +152,7 @@
                 </div>
                 <div class="IOS_third_section_box_oneBox">
                     <div class="IOS_third_section_box_head">
-                        <img src="./assets/IOS/Social Media-01.svg" class="IOS_third_section_box_head_image" />
+                        <img src="./assets/IOS/Social Media-01.svg" class="IOS_third_section_box_head_social_image" />
                         <div class="IOS_third_section_box_head_text">Social Media</div>
                     </div>
                     <div class="IOS_third_section_box_text">
@@ -195,14 +195,30 @@
                 </div>
             </div>
             <div class="IOS_fourth_section_right">
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/1.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/2.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/3.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/4.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/5.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/6.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/7.png" />
-                <img class="IOS_fourth_section_right_icon" src="./assets/IOS/8.png" />
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/1.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/2.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">    
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/3.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/4.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/5.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/6.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">    
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/7.png" />
+                </div>
+                <div class="IOS_fourth_section_right_icon_container">     
+                    <img class="IOS_fourth_section_right_icon" src="./assets/IOS/8.png" />
+                </div>
             </div>
         </div>
         <div class="IOS_fith_section">

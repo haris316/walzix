@@ -173,7 +173,7 @@
                 </div>
                 <div class="APP_third_section_box_oneBox">
                     <div class="APP_third_section_box_head">
-                        <img src="./assets/AppDev/Social Media-01.svg" class="APP_third_section_box_head_image" />
+                        <img src="./assets/AppDev/Social Media-01.svg" class="APP_third_section_box_head_social_image" />
                         <div class="APP_third_section_box_head_text">Social Media</div>
                     </div>
                     <div class="APP_third_section_box_text">
