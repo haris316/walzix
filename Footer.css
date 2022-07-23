@@ -121,6 +121,8 @@
 
     .footer_copyright {
         text-align: center;
+        background-color: white;
+        color: #000;
         font-size: 15px;
         font-weight: 400;
         padding-block: 10px;

@@ -62,58 +62,58 @@
         </div>
     </div>
 
-    <div class="third_section">
-        <div class="third_section_boxes">
-            <div class="third_section_element_boxes_one">
-                <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer">
-                        <div class="third_section_element_boxes_text">
-                            Lorem Ipsum
-                            <br>
-                            Lorem Ipsum
-                            <br>
+    <!-- <div class="third_section">
+            <div class="third_section_boxes">
+                <div class="third_section_element_boxes_one">
+                    <div class="third_section_boxes_inner">
+                        <div class="third_section_boxes_outer">
+                            <div class="third_section_element_boxes_text">
+                                Lorem Ipsum
+                                <br>
+                                Lorem Ipsum
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_section_element_boxes_one white_box">
+                    <div class="third_section_boxes_inner">
+                        <div class="third_section_boxes_outer white_box_inner">
+                            <div class="third_section_element_boxes_text white_box_inner_text">
+                                Lorem Ipsum
+                                <br>
+                                Lorem Ipsum
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_section_element_boxes_one white_box">
+                    <div class="third_section_boxes_inner">
+                        <div class="third_section_boxes_outer white_box_inner">
+                            <div class="third_section_element_boxes_text white_box_inner_text">
+                                Lorem Ipsum
+                                <br>
+                                Lorem Ipsum
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_section_element_boxes_one">
+                    <div class="third_section_boxes_inner">
+                        <div class="third_section_boxes_outer">
+                            <div class="third_section_element_boxes_text">
+                                Lorem Ipsum
+                                <br>
+                                Lorem Ipsum
+                                <br>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="third_section_element_boxes_one white_box">
-                <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer white_box_inner">
-                        <div class="third_section_element_boxes_text white_box_inner_text">
-                            Lorem Ipsum
-                            <br>
-                            Lorem Ipsum
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="third_section_element_boxes_one white_box">
-                <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer white_box_inner">
-                        <div class="third_section_element_boxes_text white_box_inner_text">
-                            Lorem Ipsum
-                            <br>
-                            Lorem Ipsum
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="third_section_element_boxes_one">
-                <div class="third_section_boxes_inner">
-                    <div class="third_section_boxes_outer">
-                        <div class="third_section_element_boxes_text">
-                            Lorem Ipsum
-                            <br>
-                            Lorem Ipsum
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </div> -->
 
     <div class="fourth_section">
         <div class="fourth_section_darkbar">

@@ -41,7 +41,12 @@
             <div class="footer_item_button">Build with Walzix</div>
         </div>
     </div>
-    <div class="footer_copyright">
+    <div style="text-align: center;
+        background-color: white;
+        color: #000;
+        font-size: 15px;
+        font-weight: 400;
+        padding-block: 10px;">
         Walzix Digital &copy; 2022. All rights reserved
     </div>
 </body>

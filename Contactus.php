@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="header-item item-right">
-                    <a href="mailto:contact@walzixdigitals.com"><i class="headerlink">contact@walzixdigitals.com</i></a>
+                    <a class ="headerlink" href="mailto:contact@walzixdigitals.com"><i class="headerlink">contact@walzixdigitals.com</i></a>
                     <!-- mobile menu trigger -->
                     <a class="headerlink" href="tel:+923352835019"><i class="headerlink">+923352835019</i></a>
                     <!-- mobile menu trigger -->

@@ -33,9 +33,7 @@
                         <div class="APP_first_section_box_head_text">Smartphone App Development</div>
                     </div>
                     <div class="APP_first_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        We build innovative mobile apps that ensure that your business objectives are met, for different android smartphones, with ensured performance.
                     </div>
                 </div>
                 <div class="APP_first_section_box_oneBox">
@@ -44,9 +42,7 @@
                         <div class="APP_first_section_box_head_text">Android Tablet Application Development</div>
                     </div>
                     <div class="APP_first_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        We build specific goal based Android tablet apps, with a smooth user UI, by implementing the latest technologies and reliable technical strategies.
                     </div>
                 </div>
                 <div class="APP_first_section_box_oneBox">
@@ -55,9 +51,7 @@
                         <div class="APP_first_section_box_head_text">Android TV Application Development</div>
                     </div>
                     <div class="APP_first_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        We create customized Android TV apps built to deliver your message to the viewer, with cross-platform functionality, improving reach.
                     </div>
                 </div>
             </div>
@@ -74,10 +68,7 @@
                         <div class="APP_second_section_right_oneBox_number">01</div>
                         <div class="APP_second_section_right_oneBox_heading">Consultation</div>
                         <div class="APP_second_section_right_oneBox_text">
-                            What is the difference between a potential
-                            vieweer and an avid used? A great user
-                            experience! You want to make sure that your
-                            APP Application can function smoothly and beautifully.
+                            Our team learns about you, your goals, and how to best work together in order to keep the process smooth. After thorough discussion, strategizing, and different solutions are pitched, we gather your finalized requirements and lock the deal with an NDA.
                         </div>
                     </div>
                 </div>
@@ -87,10 +78,7 @@
                         <div class="APP_second_section_right_oneBox_number">02</div>
                         <div class="APP_second_section_right_oneBox_heading">Design</div>
                         <div class="APP_second_section_right_oneBox_text">
-                            What is the difference between a potential
-                            vieweer and an avid used? A great user
-                            experience! You want to make sure that your
-                            APP Application can function smoothly and beautifully.
+                            Your Android app is built with an initial draft design, with individual UI/UX features scrutinized by our tech experts. These designs are shared with you, and a finalized design is chosen for the next step.
                         </div>
                     </div>
                 </div>
@@ -100,10 +88,7 @@
                         <div class="APP_second_section_right_oneBox_number">03</div>
                         <div class="APP_second_section_right_oneBox_heading">Development</div>
                         <div class="APP_second_section_right_oneBox_text">
-                            What is the difference between a potential
-                            vieweer and an avid used? A great user
-                            experience! You want to make sure that your
-                            APP Application can function smoothly and beautifully.
+                            The Alpha version of the Android app is coded, with a Beta version separately coded for the client. This version is reviewed by you, and the app is tested in order to achieve complete bug free deployment of the app. We are committed to getting it right the first time.
                         </div>
                     </div>
                 </div>
@@ -113,10 +98,7 @@
                         <div class="APP_second_section_right_oneBox_number">04</div>
                         <div class="APP_second_section_right_oneBox_heading">Testing</div>
                         <div class="APP_second_section_right_oneBox_text">
-                            What is the difference between a potential
-                            vieweer and an avid used? A great user
-                            experience! You want to make sure that your
-                            APP Application can function smoothly and beautifully.
+                            The app is test, and submitted on Google Play Store, with the database deployed on the required server. After the app has been completely reviewed, the app is made live.
                         </div>
                     </div>
                 </div>
@@ -127,7 +109,7 @@
             <div class="APP_third_section_text">
                 Our apps are built to cater to different industries globally, and the applications are endless. We are not limited to a single industry, but rather focus on the value proposition your business offers.
             </div>
-            <div class="APP_third_section_text">
+            <!-- <div class="APP_third_section_text">
                 What is the difference between a potential
                 vieweer and an avid used? A great user
                 experience! You want to make sure that your
@@ -136,7 +118,7 @@
                 vieweer and an avid used? A great user
                 experience! You want to make sure that your
                 APP Application can function smoothly and beautifully.
-            </div>
+            </div> -->
             <div class="APP_third_section_box_container">
                 <div class="APP_third_section_box_oneBox">
                     <div class="APP_third_section_box_head">
@@ -144,9 +126,7 @@
                         <div class="APP_third_section_box_head_text">APP Game Apps</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        Our iOS game development team is familiar with the challenges that many businesses confront when attempting to transform a basic game concept into a memorable experience. We make Android games that are almost bug-free and meant to leave a lasting impact on the user.
                     </div>
                 </div>
                 <div class="APP_third_section_box_oneBox">
@@ -155,9 +135,7 @@
                         <div class="APP_third_section_box_head_text">Health</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        Walzix assures that every health and fitness Android app is well-designed and gives useful feedback to help users and society. Achieve the peak of health with dynamic feedback on your activity.
                     </div>
                 </div>
                 <div class="APP_third_section_box_oneBox">
@@ -166,9 +144,7 @@
                         <div class="APP_third_section_box_head_text">E-Commerce</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        It might be difficult to bridge the gap between the business and the client, but our iPhone apps ensure that your company's app makes purchasing and selling that much easier! Increase your consumer base and earnings by providing a fluid and engaged customer experience.
                     </div>
                 </div>
                 <div class="APP_third_section_box_oneBox">
@@ -177,9 +153,7 @@
                         <div class="APP_third_section_box_head_text">Social Media</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        We are built to socialize, and our social Android applications ensure that users rapidly adjust to the user-friendly design, and our well-researched social media methods ensure that the app becomes a part of the user’s daily life.
                     </div>
                 </div>
                 <div class="APP_third_section_box_oneBox">
@@ -188,9 +162,7 @@
                         <div class="APP_third_section_box_head_text">Travel</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        We design Android apps that make things easier and more pleasurable for both users and clients in the worldwide travel sector. Users will have a wonderful experience when they use your well-designed travel app, from reserving a stay to visiting local hotspots.
                     </div>
                 </div>
                 <div class="APP_third_section_box_oneBox">
@@ -199,9 +171,7 @@
                         <div class="APP_third_section_box_head_text">Education</div>
                     </div>
                     <div class="APP_third_section_box_text">
-                        From planning to deployment, our expert team ensures that all your requirements
-                        are fully implemented, and positive business growth follows the application of
-                        your software.From planning to deployment, our expert team ensures that all you
+                        With technical advancements in the education industry occurring on a daily basis, we create educational iPhone applications that help students and instructors throughout the world to make studying not only simpler, but also entertaining.
                     </div>
                 </div>
             </div>
@@ -230,33 +200,35 @@
             <div class="APP_fith_section_heading">Frequently Asked Questions</div>
             <div class="accordion">
                 <div class="accordion-item">
-                    <a>What can JavaScript Do?</a>
+                    <a>Am I the owner of the final app and all its related code?</a>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>All of our clients have complete control of the code for their mobile app or programme.
+                            Unless you form a cooperation agreement with us, we don't own the code.
+                        </p>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <a>How JavaScript Can Modify HTML and CSS Values?</a>
+                    <a>What is the resource allocation for my Android app?</a>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>Our strategists decide what of intellectual capital would be allocated to your project, and that is based on the scope and urgency of your project. The final team is selected from different department in our company, who seem the best fit for your application development project.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <a>What Is SVG?</a>
+                    <a>How will I be kept in the loop during the development process?</a>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>We ensure that the client is kept well informed about the project’s status, and this is achieved through presentations, online or physical meetings, and project management software.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <a>Is FAQ Section Matters In Website?</a>
+                    <a>What if I need to implement changes in my project midway?</a>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>We understand that today’s dynamic environment requires businesses to always be a step ahead. That’s why we ensure that every detail is catered to in the initial meeting, and any further queries that require changing have minimal impact on the deadline and overall progress of the project.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <a>How To Create a Light FAQ Element?</a>
+                    <a>Will I receive any technical assistance after the project is completed?</a>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>Yes, we provide free technical project completion for a time period that is pre-decided. After the pre-decided term, if you have any technical or maintenance concerns, we provide support and maintenance services that our experts can assist you with.</p>
                     </div>
                 </div>
             </div>

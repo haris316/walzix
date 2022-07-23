@@ -736,12 +736,14 @@
     .APP_fourth_section_left_head {
         font-size: 170%;
         font-weight: 900;
+        text-align: center;
     }
     
     .APP_fourth_section_left_text {
         padding: 1% 2%;
         font-size: 90%;
-        text-align: justify;
+        /* text-align: justify; */
+        text-align: center;
     }
     
     .APP_fourth_section_right {

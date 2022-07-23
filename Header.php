@@ -69,20 +69,23 @@
                                 <div class="sub-menu mega-menu mega-menu-column-4">
                                     <div class="list-main-item">
                                         <h3 class="main-title">Our Services</h3>
-                                        <p class="main-desc">These are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our servicesThese are our services</p>
+                                        <p class="main-desc">Leveraging cutting-edge technologies to build industry-leading digital products.</p>
                                     </div>
                                     <div class="list-item">
                                         <a href="AppDevelopment.php">
-                                            <h4 class="title">Application Development</h4>
+                                            <h4 class="title">Android Development</h4>
                                         </a>
+                                        <p style="font-size:12px;">Smartphone Application, Android TV Application, & Android Tablet Application Development</p>
                                         <p class="submenu-spacer"></p>
                                         <a href="IOSDevelopment.php">
                                             <h4 class="title">IOS Development</h4>
                                         </a>
+                                        <p style="font-size:12px;">Specialized IOS Appplication Consultaion & Development</p>
                                         <p class="submenu-spacer"></p>
                                         <a href="WebDevelopment.php">
                                             <h4 class="title">Web Development</h4>
                                         </a>
+                                        <p style="font-size:12px;">Expert Web Design & Development</p>
                                     </div>
                                     <div class="list-main-item">
                                         <h4 class="heading">Software Development Cycle</h4>
@@ -114,7 +117,7 @@
                                         </ul>
                                     </div>
                                     <div class="list-img-item">
-                                        <img src="assets/blogs-2.png" alt="shop">
+                                        <img src="assets/headerimg.jpg" style="height: 300px;" alt="img">
                                     </div>
                                 </div>
                             </li>
